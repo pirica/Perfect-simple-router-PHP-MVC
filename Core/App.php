@@ -6,8 +6,8 @@ class App
     private $require;
     public $url = false;
 
-    public function view($c,$r){
-        $this->path = $c;
+    public function view($p,$r){
+        $this->path = $p;
         $this->require = $r;
 
         $urlview = filter_var(filter_input(INPUT_GET,"url", FILTER_DEFAULT),FILTER_SANITIZE_URL) ;
@@ -17,8 +17,8 @@ class App
         }
     }
 
-    public function seo($c,$r){
-        $this->path = $c;
+    public function seo($p,$r){
+        $this->path = $p;
         $this->require = $r;
 
         $urlseo = filter_var(urldecode($_SERVER['REQUEST_URI']), FILTER_SANITIZE_URL);
