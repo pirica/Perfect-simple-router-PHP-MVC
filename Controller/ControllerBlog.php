@@ -1,13 +1,10 @@
 <?php
 namespace Controller;
-
-class ControllerBlog{
-
-
+class ControllerBlog
+{
     public function view(){
         require '../Public/view/blog.php';
-    }
-    
+    }    
 }
 
 $view = new ControllerBlog;
