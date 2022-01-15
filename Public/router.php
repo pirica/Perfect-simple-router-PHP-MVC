@@ -7,6 +7,8 @@ $app = new App;
 
 //Routers
 $app->view("","./view/index.php");
+//example contoller
+$app->view("blog","../Controller/ControllerBlog.php");
 
 
 
