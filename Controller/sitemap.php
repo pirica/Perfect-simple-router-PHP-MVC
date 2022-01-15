@@ -1,5 +1,5 @@
 <?php 
-// include '../Model/conn.php';
+// include 'Model/conn.php';
 //example:
 //$mysqlxml = "SELECT * FROM blog ORDER BY id DESC";
 // $mysqlxml = "";
