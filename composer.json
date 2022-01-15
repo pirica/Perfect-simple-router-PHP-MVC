@@ -1,0 +1,19 @@
+{
+    "description": "PHP Simple Router MVC",
+    "authors": [
+        {
+            "name": "Warley Rodrigues",
+            "email": "haleytrader@hotmail.com"             
+        }
+    ],
+    "autoload": {
+        "psr-4": {            
+            "Core\\": "Core/", 
+            "Controller\\": "Controller/"
+        }
+    },
+    
+    "require": {
+       
+    }
+}
