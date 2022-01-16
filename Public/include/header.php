@@ -8,3 +8,9 @@
     <title><?=$this->title?></title>
 </head>
 <body>
+
+    <nav>
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/dgfhfghfgdhdfgh">Error</a></li>       
+    </nav>

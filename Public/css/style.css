@@ -7,17 +7,44 @@
     scroll-behavior: smooth;
 }
 
-body {
-    display: flex;
-    justify-content: center;
+body { 
     margin: 0 auto;
     background: rgb(230, 230, 230);
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(40, 40, 40);
+    color: rgb(54, 54, 54);
     text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;       
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;    
+    background: cornflowerblue;
+    height: 45px;
+    margin-bottom: 30px;
+}
+
+nav li {
+    list-style: none;
+    padding: 5px 20px;
+}
+
+nav li a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+nav li a:hover{
+    color:darkslateblue;
 }

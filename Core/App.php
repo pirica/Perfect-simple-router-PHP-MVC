@@ -12,8 +12,8 @@ class App
 
         $urlview = filter_var(filter_input(INPUT_GET,"url", FILTER_DEFAULT),FILTER_SANITIZE_URL) ;
         if($this->path == $urlview){
-            require $this->require;            
-            return $this->url = true;
+            require $this->require;                    
+            return $this->url = true;            
         }
     }
 

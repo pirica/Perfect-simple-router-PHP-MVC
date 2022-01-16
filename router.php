@@ -15,6 +15,7 @@ $app->view("blog","./Controller/ControllerBlog.php");
 
 
 
+
 //seo
 $app->seo("/sitemap.xml","./Controller/sitemap.php");
 $app->seo("/robots.txt","./Controller/robots.php");
