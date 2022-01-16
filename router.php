@@ -6,8 +6,7 @@ use Core\App;
 $app = new App;
 
 //Routers
-$app->view("","./Public/view/index.php");
-//example controller
+$app->view("","./Controller/ControllerHome.php");
 $app->view("blog","./Controller/ControllerBlog.php");
 
 
@@ -21,7 +20,7 @@ $app->seo("/sitemap.xml","./Controller/sitemap.php");
 $app->seo("/robots.txt","./Controller/robots.php");
 
 if($app->url == false){
-    require './Public/view/404.php';
+    require './Controller/Controller404.php';
 }
 
 if(isset($conn)){

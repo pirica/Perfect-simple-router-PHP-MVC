@@ -1,15 +1,16 @@
 <?php
 namespace Controller;
-class ControllerBlog
+class ControllerHome
 {    
-    public $title = "Blog Example";
+    public $title = "Simple Perfect Router";
+      
 
     public function view(){
         require './Public/include/header.php';
-        require './Public/view/blog.php';
+        require './Public/view/index.php.';
         require './Public/include/footer.php';
     }    
 }
 
-$view = new ControllerBlog;
+$view = new ControllerHome;
 $view->view();

@@ -1,15 +1,15 @@
 <?php
 namespace Controller;
-class ControllerBlog
+class Controller404
 {    
-    public $title = "Blog Example";
+    public $title = "404";
 
     public function view(){
         require './Public/include/header.php';
-        require './Public/view/blog.php';
+        require './Public/view/404.php';
         require './Public/include/footer.php';
     }    
 }
 
-$view = new ControllerBlog;
+$view = new Controller404;
 $view->view();
