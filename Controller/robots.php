@@ -3,4 +3,4 @@ User-agent: *
 Disallow: /projetos
 Disallow: /user
 
-Sitemap: https://warleyrodrigues.net/sitemap.xml
+Sitemap: https://yousite/sitemap.xml

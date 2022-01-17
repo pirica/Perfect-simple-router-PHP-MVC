@@ -20,7 +20,7 @@ echo '<?xml version="1.0" encoding="UTF-8" ?>';
         // while($xml=mysqli_fetch_object($connxml)) {        
         //     echo 
         //     "<url>
-        //         <loc>https://warleyrodrigues.net/post?p=".$xml->id."</loc>        
+        //         <loc>https://yousite/post?p=".$xml->id."</loc>        
         //         <lastmod>".$xml->oficialdata."</lastmod>
         //         <priority>1.0</priority>
         //     </url>"
