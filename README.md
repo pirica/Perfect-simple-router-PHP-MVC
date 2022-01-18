@@ -16,5 +16,5 @@ ATENÇÃO:
 O router não pega todos os parâmetros da url
 Exemplo: 
 
-Em ‘’https://website.net/post?p=2'' o router ira pegar apenas "website.net/post''.
+Em "https://website.net/post?p=2" o router ira pegar apenas "website.net/post''.
 O restante dos parâmetros url podem ser facilmente capturados criando uma classe em Controller usando  ex: $_GET["post"].
